@@ -1,0 +1,100 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+  padding: 0 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 3rem;
+  background-size: 200px;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+}
+
+/* Navbar */
+nav {
+  background-color: #333;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav ul {
+  display: inline;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+
+nav ul li a:hover {
+  background: #555;
+  border-radius: 5px;
+}
+
+/* Main Sections */
+main section {
+  padding: 2rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+section h2 {
+  color: #4facfe;
+  margin-bottom: 10px;
+}
+
+/* Form Styling */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form input,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #4facfe;
+  color: white;
+  font-weight:bold;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #00c6ff;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #222;
+  color: #ccc;
+  margin-top: 2rem;
+}
